@@ -1,0 +1,11 @@
+%section.hero
+  .hero-body
+    %h4.subtitle.is-4 Boutiques
+    .columns.is-multiline
+      - @boutiques.each do |boutique|
+        .column.is-4
+          .card.is-shady
+            .card-content
+              .content
+                %h4= boutique.name
+                %a{:href => boutique.url} Ver más

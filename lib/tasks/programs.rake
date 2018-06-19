@@ -9,7 +9,7 @@ namespace :programs do
     Program.find_or_create_by(name: "Programa Recompra", path: "repurchases")
     Program.find_or_create_by(name: "Programa Marca", path: "brands")
     Program.find_or_create_by(name: "Programa Servicio BX", path: "services")
-    Program.find_or_create_by(name: "Programa Boutiques")
+    Program.find_or_create_by(name: "Programa Boutiques", path: "boutiques")
 
     ConsentClient.find_or_create_by(name: "Felicitacíon de cumpleaños", url: "http://email.liverpool.com.mx/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlt6DycLLgrS0fzdyLe3RNf4Auza5zgqD9zczctJfizchuFzg11ssTyrkDYVXMtX%3DYQpglLjHJlTQGNzaOv40zffzczg5YbEzan46IX86hciJozeGmzenecFv12nHMzcnLhzcFt0ba&_ei_=Eg2y__3Jhs3rx1udhabL1QkkvpeOnNr31t52wZS_dVvMRESX4rInOt5JXHxbReGKHg")
     ConsentClient.find_or_create_by(name: "Cuponera Electronica", url: "http://email.liverpool.com.mx/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlt6DycLLgrS0fzdyLe3RNf4Auza5zgqD9zczctJfizchuFzg11ssTyrkDYVXMtX%3DYQpglLjHJlTQGNzaOv40zffzczg5YbEzan46IX86hciJozeGmzenecFv12nHMzcnLhzcFt0ba&_ei_=Eg2y__3Jhs3rx1udhabL1QkkvpeOnNr31t52wZS_dVvMRESX4rInOt5JXHxbReGKHg")
@@ -24,5 +24,7 @@ namespace :programs do
     Brand.find_or_create_by(name: "Chanel", url: "http://email.liverpool.com.mx/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlt6DycLLgrS0fzdyLe3RNf4Auza5zgqD9zczctJfizchuFzg11ssTyrkDYVXMtX%3DYQpglLjHJlTQGNzaOv40zffzczg5YbEzan46IX86hciJozeGmzenecFv12nHMzcnLhzcFt0ba&_ei_=Eg2y__3Jhs3rx1udhabL1QkkvpeOnNr31t52wZS_dVvMRESX4rInOt5JXHxbReGKHg")
 
     Service.find_or_create_by(name: "Visita frecuente", url: "http://email.liverpool.com.mx/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlt6DycLLgrS0fzdyLe3RNf4Auza5zgqD9zczctJfizchuFzg11ssTyrkDYVXMtX%3DYQpglLjHJlTQGNzaOv40zffzczg5YbEzan46IX86hciJozeGmzenecFv12nHMzcnLhzcFt0ba&_ei_=Eg2y__3Jhs3rx1udhabL1QkkvpeOnNr31t52wZS_dVvMRESX4rInOt5JXHxbReGKHg")
+
+    Boutique.find_or_create_by(name: "Visita frecuente", url: "http://email.liverpool.com.mx/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlt6DycLLgrS0fzdyLe3RNf4Auza5zgqD9zczctJfizchuFzg11ssTyrkDYVXMtX%3DYQpglLjHJlTQGNzaOv40zffzczg5YbEzan46IX86hciJozeGmzenecFv12nHMzcnLhzcFt0ba&_ei_=Eg2y__3Jhs3rx1udhabL1QkkvpeOnNr31t52wZS_dVvMRESX4rInOt5JXHxbReGKHg")
   end
 end

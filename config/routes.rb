@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-
   resources :consent_client
   resources :brands
   resources :repurchases
   resources :services
+  resources :boutiques
 
   get 'welcome/index'
   root 'welcome#index'
