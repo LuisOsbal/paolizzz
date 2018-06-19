@@ -1,10 +1,10 @@
 %section.hero
   .hero-body
     .columns.is-multiline
-      - @programs.each do |program|
+      - @repurchases.each do |repurchase|
         .column.is-4
           .card.is-shady
             .card-content
               .content
-                %h4= program.name
-                %a{:href => "#{program.path}"} Ver más
+                %h4= repurchase.name
+                %a{:href => repurchase.url} Ver más

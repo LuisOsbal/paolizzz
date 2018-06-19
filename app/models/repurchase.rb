@@ -1,0 +1,2 @@
+class Repurchase < ApplicationRecord
+end

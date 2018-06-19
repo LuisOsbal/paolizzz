@@ -1,10 +1,10 @@
 %section.hero
   .hero-body
     .columns.is-multiline
-      - @programs.each do |program|
+      - @services.each do |service|
         .column.is-4
           .card.is-shady
             .card-content
               .content
-                %h4= program.name
-                %a{:href => "#{program.path}"} Ver más
+                %h4= service.name
+                %a{:href => service.url} Ver más
