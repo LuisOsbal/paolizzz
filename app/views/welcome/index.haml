@@ -1,0 +1,11 @@
+%section.hero
+  .hero-body
+    .columns.is-multiline
+      - @programs.each do |program|
+        .column.is-4
+          .card.is-shady
+            .card-content
+              .content
+                %h4= program.name
+                %p Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.
+                %a Learn more
